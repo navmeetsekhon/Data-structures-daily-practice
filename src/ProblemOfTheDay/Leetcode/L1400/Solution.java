@@ -11,7 +11,7 @@ public class Solution {
         }
         int oddCount = 0;
         for(int i : count){
-            if(i < 2 || i % 2 != 0)
+            if(i % 2 != 0)
                 oddCount++;
         }
         return oddCount <= k;
